@@ -1,6 +1,6 @@
-def inc(x, y):
-    return x + y
+import demotest
 
 
-def test_answer():
-    assert inc(2, 2) == 4
+def test_add():
+    res=demotest.inc(2,5)
+    assert res==7
