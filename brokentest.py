@@ -1,4 +1,4 @@
-import demotest
+import demotest.py
 
 
 def test_add():
